@@ -1,0 +1,19 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    color: navy
+}
+
+p {
+    color:#333333;
+}
+
+.highlight {
+    color: orange;
+    background-color:black;
+    padding: 10px;
+    border-radius: 5px;
+}
