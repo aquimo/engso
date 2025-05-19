@@ -37,3 +37,50 @@ p {
     font-size: 20px;
     border-radius: 5px;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "menu content"
+        "footer footer";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 80px 1fr 60px;
+    gap: 10px;
+    height: 100vh;
+    padding: 10px;
+}
+
+.header {
+    grid-area: header;
+    background: steelblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    grid-area: menu;
+    background: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    grid-area: content;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    grid-area: footer;
+    background: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
