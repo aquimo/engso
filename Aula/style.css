@@ -17,3 +17,23 @@ p {
     padding: 10px;
     border-radius: 5px;
 }
+
+.container {
+    display: flex;
+    flex-direction: center;
+    background-color: #ddd;
+    padding: 20px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    align-items: flex-start;
+    }
+
+.item {
+    background-color: steelblue;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
