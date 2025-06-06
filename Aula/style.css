@@ -84,3 +84,18 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+@media (max-widht:780px){
+    .grid-container{
+        grid-template-areas: 
+            "header"
+            "content"
+            "menu"
+            "footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px 1fr auto 60px;
+    }
+    .menu{
+        background: #ddd;
+    }
+}
